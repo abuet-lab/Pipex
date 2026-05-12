@@ -6,7 +6,7 @@
 /*   By: antoinebuet <antoinebuet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/02 12:18:17 by antoinebuet       #+#    #+#             */
-/*   Updated: 2026/04/15 20:16:28 by antoinebuet      ###   ########.fr       */
+/*   Updated: 2026/05/12 14:46:11 by antoinebuet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ char	*ft_strrchr(const char *s, int c);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	*ft_itoa(int n);
 char	*ft_strtrim(char const *s1, char const *set);
-char	*get_next_line(int fd);
+
 
 int		ft_toupper(int c);
 int		ft_tolower(int c);
@@ -61,6 +61,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 
-int	ft_printf(const char *str, ...);
+int		ft_printf(const char *str, ...);
+char	*get_next_line(int fd);
 
 #endif

@@ -6,7 +6,7 @@
 #    By: antoinebuet <antoinebuet@student.42.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/15 20:29:27 by antoinebuet       #+#    #+#              #
-#    Updated: 2026/04/15 20:50:56 by antoinebuet      ###   ########.fr        #
+#    Updated: 2026/05/12 14:38:20 by antoinebuet      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ ARGS ?=
 
 OPTION = -I. -Ilibft
 
-SRC_FILES = pipex.c
+SRC_FILES = pipex.c main.c
 
 OBJ_FILES =  $(SRC_FILES:.c=.o)
 

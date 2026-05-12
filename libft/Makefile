@@ -6,7 +6,7 @@
 #    By: antoinebuet <antoinebuet@student.42.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/07 15:03:41 by abuet             #+#    #+#              #
-#    Updated: 2026/04/15 20:34:03 by antoinebuet      ###   ########.fr        #
+#    Updated: 2026/05/12 14:51:53 by antoinebuet      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,7 +58,13 @@ SRC_FILES = ft_isalpha.c \
 	ft_split.c \
  	ft_strlcat.c \
 	get_next_line/get_next_line.c \
-	get_next_line/get_next_line_utils.c
+	get_next_line/get_next_line_utils.c \
+	ft_printf/ft_printf.c \
+      ft_printf/ft_deci.c \
+      ft_printf/ft_hexa.c \
+      ft_printf/ft_ptr.c \
+      ft_printf/ft_unsigndeci.c \
+      ft_printf/print_string.c
 
 OBJ_FILES =  $(SRC_FILES:.c=.o)
 
